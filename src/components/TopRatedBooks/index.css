@@ -1,0 +1,53 @@
+.slick-slider {
+  text-align: center;
+  margin: 0 0px 0 0px;
+  padding: 0 0px 0 0px;
+  box-sizing: border-box;
+}
+
+.cover-pics {
+  max-width: 80%;
+  max-height: 60%;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+.heading-title,
+.a-name {
+  margin-right: 23px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 22px;
+}
+.logo-image {
+  margin: 0px 10px;
+  height: 100px;
+  width: 100px;
+  margin: 15px;
+}
+
+/* You can change the CSS color to style the Next and 
+Previous Arrow buttons according to your project */
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.slider-container {
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  color: #05acff;
+  font-size: 35px;
+}

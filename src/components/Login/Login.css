@@ -1,0 +1,91 @@
+@media (min-width: 700px) {
+  input {
+    height: 56px;
+    width: 360px;
+    padding: 10px;
+    font-style: bold;
+  }
+
+  .button-login {
+    width: 360px;
+    height: 56px;
+    margin-top: 15px;
+  }
+  .errorText {
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+  }
+
+  label {
+    margin-top: 20px;
+  }
+
+  /*.login-big-image {
+  height: 1024px;
+  width: 780px;
+}
+*/
+
+  .login-big-image {
+    height: 600px;
+  }
+
+  .card2 {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 700px) {
+  input {
+    height: 56px;
+    width: 312px;
+    padding: 10px;
+    font-style: bold;
+  }
+  .button-login {
+    width: 312px;
+    height: 40px;
+    margin-top: 15px;
+  }
+  .errorText {
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+  }
+
+  label {
+    margin-top: 20px;
+  }
+
+  /*.login-big-image {
+  height: 1024px;
+  width: 780px;
+}
+*/
+
+  .login-big-image {
+    height: 216px;
+    width: 216px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .logo-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .small {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .card2 {
+    margin-top: 20px;
+  }
+}
